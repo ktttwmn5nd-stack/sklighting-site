@@ -120,12 +120,12 @@ body.v3 .vbiz__shade{
     rgba(6,10,19,.93) 0%,
     rgba(6,10,19,.86) 14%,
     rgba(6,10,19,.62) 30%,
-    rgba(6,10,19,.34) 44%,
+    rgba(6,10,19,.38) 44%,
     rgba(6,10,19,.12) 56%,
     rgba(6,10,19,0) 68%);
 }
 
-.vbiz__kicker{font-size:9.5px;font-weight:800;letter-spacing:.26em;color:rgba(255,255,255,.8);text-transform:uppercase;text-shadow:0 1px 14px rgba(0,0,0,.85)}
+.vbiz__kicker{font-size:9.5px;font-weight:800;letter-spacing:.26em;color:rgba(255,255,255,.88);text-transform:uppercase;text-shadow:0 1px 14px rgba(0,0,0,.85)}
 
 /* 글씨 — 박스 없이 사진 위에 직접, 하단에 컴팩트하게 */
 body.v3 .vbiz__txt{
@@ -134,8 +134,8 @@ body.v3 .vbiz__txt{
 }
 body.v3 .vbiz__card:hover .vbiz__txt{background:none;border:0;box-shadow:none}
 body.v3 .vbiz__card h3{text-shadow:0 2px 26px rgba(0,0,0,.95),0 0 4px rgba(0,0,0,.75)}
-body.v3 .vbiz__card p{color:rgba(232,238,248,.92);max-width:470px;text-shadow:0 1px 18px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.65)}
-body.v3 .vbiz__no{color:rgba(255,255,255,.8);text-shadow:0 1px 12px rgba(0,0,0,.8)}
+body.v3 .vbiz__card p{color:rgba(240,245,253,.95);max-width:470px;text-shadow:0 1px 18px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.65)}
+body.v3 .vbiz__no{color:rgba(255,255,255,.94);text-shadow:0 2px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6)}
 body.v3 .vbiz__tags li{
   background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.26);color:rgba(255,255,255,.9);
   -webkit-backdrop-filter:none;backdrop-filter:none;text-shadow:0 1px 8px rgba(0,0,0,.6);
