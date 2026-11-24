@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+/* PC(1024px 이상)에서는 풀스크린 버전(full.html)으로 바로 전환 — 모바일은 이 화면 유지 */
+(function(){try{var w=document.documentElement.clientWidth||window.innerWidth;if(w>=1024&&location.search.indexOf("mode=mobile")<0){location.replace("./full.html"+location.search+location.hash);}}catch(e){}})();
+</script>
 <title>(주)세광산업조명 | 39년 산업조명 제조 전문기업 · 설계·제조·품질검사·납품 일괄</title>
 <meta name="description" content="1987년 설립. 경기도 평택 7,550평 직영공장에서 가로등주·신호등주·조명타워와 LED 등기구를 직접 설계·제조·품질검사·납품하는 산업조명 제조 전문기업 (주)세광산업조명. 조달청 혁신제품(2026-054), 고효율에너지기자재, KS·K마크·직접생산 인증.">
 <meta name="keywords" content="세광산업조명, 산업조명 제조기업, LED 조명 제조, 가로등주 제조, 조명타워, 신호등주, 수배전반, 혁신제품, 조달청, 고효율에너지기자재, 평택 조명공장">
@@ -17,7 +21,7 @@
 <link rel="preload" as="image" href="assets/facility/factory-panorama.jpg">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="v2-styles.css">
-<link rel="stylesheet" href="v3-styles.css?v=9">
+<link rel="stylesheet" href="v3-styles.css?v=10">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -613,10 +617,10 @@
   <div class="wrap">
     <header class="sec__head">
       <p class="eyebrow" data-reveal>PROJECT &amp; REFERENCE</p>
-      <h2 data-reveal data-delay="1">도로에서 경기장, 수변까지<br class="pc"> 현장에서 빛이 되는 순간</h2>
+      <h2 data-reveal data-delay="1">도로에서 경기장, 수변과 실내까지<br class="pc"> 현장에서 빛이 되는 순간</h2>
       <p class="sec__desc" data-reveal data-delay="2">
-        가로등주와 신호등주, 조명타워, 스포츠 투광, 교량과 건축물 경관조명까지.
-        지자체 도로와 공공기관, 산업 플랜트에서 쌓아온 여섯 가지 현장입니다.
+        가로등주·신호등주·조명타워부터 LED 가로등·보안등·공원등·터널등기구, 스포츠·경관·실내 LED 등기구까지.
+        지자체 도로와 공공기관, 산업 플랜트에서 쌓아온 아홉 가지 현장과 조명기구입니다.
       </p>
     </header>
 
@@ -651,12 +655,32 @@
         <span class="gal__cap">고속도로 IC · 항만·광장 하이마스트</span>
       </article>
 
-      <article class="rgal__item" data-reveal data-full="assets/img/v3_sports_stadium.jpg">
+      <article class="rgal__item" data-reveal data-delay="1" data-full="assets/img/v3_led_street.jpg">
+        <div class="mox" data-mox data-interval="5600" data-delay="600" data-dots>
+          <figure class="mox__i is-on"><img src="assets/img/v3_led_street.jpg" alt="간선도로를 밝히는 고효율 LED 가로등기구 헤드 클로즈업" loading="lazy"></figure>
+          <figure class="mox__i"><img src="assets/img/v3_led_alley.jpg" alt="주택가 생활도로를 밝히는 LED 보안등기구" loading="lazy"></figure>
+        </div>
+        <span class="rgal__no">04</span>
+        <h3 class="rgal__t">LED 가로등·보안등기구</h3>
+        <span class="gal__cap">간선·생활도로 · 고효율 LED 등기구</span>
+      </article>
+
+      <article class="rgal__item" data-reveal data-delay="2" data-full="assets/img/v3_led_park.jpg">
+        <div class="mox" data-mox data-interval="6000" data-delay="1400" data-dots>
+          <figure class="mox__i is-on"><img src="assets/img/v3_led_park.jpg" alt="공원 산책로를 밝히는 LED 공원등기구" loading="lazy"></figure>
+          <figure class="mox__i"><img src="assets/img/v2_tunnel.jpg" alt="균일한 조도로 이어지는 고효율 LED 터널등기구" loading="lazy"></figure>
+        </div>
+        <span class="rgal__no">05</span>
+        <h3 class="rgal__t">LED 공원등·터널등기구</h3>
+        <span class="gal__cap">공원·산책로 · 터널·지하차도</span>
+      </article>
+
+      <article class="rgal__item" data-reveal data-delay="0" data-full="assets/img/v3_sports_stadium.jpg">
         <div class="mox" data-mox data-interval="6000" data-delay="2400" data-dots>
           <figure class="mox__i is-on"><img src="assets/img/v2_sports_park.jpg" alt="종합스포츠타운 육상 트랙과 경기장 조명" loading="lazy"></figure>
           <figure class="mox__i"><img src="assets/img/v3_sports_stadium.jpg" alt="조명타워로 환하게 밝힌 대형 축구장 스타디움" loading="lazy"></figure>
         </div>
-        <span class="rgal__no">04</span>
+        <span class="rgal__no">06</span>
         <h3 class="rgal__t">스포츠조명</h3>
         <span class="gal__cap">종합운동장 · 스포츠 투광</span>
       </article>
@@ -666,7 +690,7 @@
           <figure class="mox__i is-on"><img src="assets/img/v2_landscape_rgb.jpg" alt="RGB 컬러 연출로 물든 교량 경관조명 야경" loading="lazy"></figure>
           <figure class="mox__i"><img src="assets/img/v2_landscape_warm.jpg" alt="따뜻한 웜골드 톤으로 빛나는 수변 교량 경관조명" loading="lazy"></figure>
         </div>
-        <span class="rgal__no">05</span>
+        <span class="rgal__no">07</span>
         <h3 class="rgal__t">다리 경관조명</h3>
         <span class="gal__cap">교량 · 수변 · RGB &amp; 웜골드</span>
       </article>
@@ -676,9 +700,19 @@
           <figure class="mox__i is-on"><img src="assets/img/v3_building.jpg" alt="웜골드 라인과 블루 라인이 흐르는 공공건축물 외벽 경관조명" loading="lazy"></figure>
           <figure class="mox__i"><img src="assets/img/v3_building_b.jpg" alt="컬럼 업라이트와 루프 라인으로 연출한 시빅 랜드마크 경관조명" loading="lazy"></figure>
         </div>
-        <span class="rgal__no">06</span>
+        <span class="rgal__no">08</span>
         <h3 class="rgal__t">건물 경관조명</h3>
         <span class="gal__cap">공공·랜드마크 건축 외벽</span>
+      </article>
+
+      <article class="rgal__item" data-reveal data-delay="2" data-full="assets/img/v3_indoor_panel.jpg">
+        <div class="mox" data-mox data-interval="6800" data-delay="2600" data-dots>
+          <figure class="mox__i is-on"><img src="assets/img/v3_indoor_panel.jpg" alt="LED 평판등과 라인조명으로 환하게 밝힌 공공청사 실내" loading="lazy"></figure>
+          <figure class="mox__i"><img src="assets/img/v3_indoor_hall.jpg" alt="LED 다운라이트와 간접조명으로 연출한 실내 다목적 홀" loading="lazy"></figure>
+        </div>
+        <span class="rgal__no">09</span>
+        <h3 class="rgal__t">실내 LED 등기구</h3>
+        <span class="gal__cap">공공청사 · 오피스 · 학교 · 주차장</span>
       </article>
     </div>
 
