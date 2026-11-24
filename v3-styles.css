@@ -102,6 +102,7 @@ body.v3 .showcase__c{max-width:540px}
 .vbiz__card--sports{--accent:245,196,81}
 .vbiz__card--land{--accent:192,132,252}
 .vbiz__card .vbiz__bg .mox__i img{filter:saturate(1) brightness(.95) contrast(1.04)}
+.vbiz__card--road .vbiz__bg img{object-position:50% 58%}
 .vbiz__card:hover .vbiz__bg .mox__i img{filter:saturate(1.06) brightness(1.02) contrast(1.06)}
 .vbiz__kicker{font-size:9.5px;font-weight:800;letter-spacing:.26em;color:rgba(255,255,255,.62);text-transform:uppercase}
 
@@ -186,8 +187,9 @@ body.v3 .showcase__c{max-width:540px}
   .rgal__t{font-size:18px;bottom:34px}
   /* 모바일 카드: 사진 영역을 확보하고 글은 하단 패널로 */
   .vbiz__card{min-height:0;padding:18px}
-  .vbiz__card .vbiz__body{padding-top:118px}
-  .vbiz__card--road .vbiz__body{padding-top:96px}
+  .vbiz__card .vbiz__body{padding-top:168px}
+  .vbiz__card--road .vbiz__body{padding-top:140px}
+  .vbiz__card .vbiz__bg .mox__i img{object-position:50% 72%}
   .vbiz__card .vbiz__top{position:absolute;left:18px;right:18px;top:18px}
   .vbiz__card .vbiz__txt{margin:0;padding:15px 16px 14px;border-radius:16px}
   .vbiz__card p{font-size:13px;line-height:1.66}
