@@ -33,7 +33,7 @@
 @supports (height:100svh){:root{--100vh:100svh}}
 
 *,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;background:var(--bg);scroll-behavior:smooth}
+html{-webkit-text-size-adjust:100%;background:var(--bg);scroll-behavior:auto}
 body.full{
   margin:0;background:var(--bg);color:var(--ink);
   font-family:'Pretendard',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
@@ -418,8 +418,8 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
   display:grid;grid-template-columns:minmax(0,1fr) 300px;
   gap:clamp(20px,3vw,50px);align-items:end;margin-top:auto;padding-top:clamp(16px,4vh,40px);
 }
-.fbiz__txt{grid-column:1;grid-row:1;opacity:0;transform:translateY(14px);transition:opacity .7s var(--ease),transform .7s var(--ease);pointer-events:none}
-.fbiz__txt.is-on{opacity:1;transform:none;pointer-events:auto}
+.fbiz__txt{grid-column:1;grid-row:1;opacity:0;transform:translateY(12px);transition:opacity .22s linear,transform .3s var(--ease);pointer-events:none}
+.fbiz__txt.is-on{opacity:1;transform:none;pointer-events:auto;transition:opacity .6s var(--ease) .26s,transform .7s var(--ease) .26s}
 .fbiz__k{font-size:10px;font-weight:800;letter-spacing:.24em;color:var(--gold-2)}
 .fbiz__t{margin-top:10px;font-size:clamp(24px,2.9vw,40px);line-height:1.2;letter-spacing:-.035em;font-weight:800;color:#fff}
 .fbiz__d{margin-top:14px;max-width:520px;font-size:clamp(12.5px,1vw,14.5px);line-height:1.8;color:rgba(219,228,240,.8)}
@@ -432,9 +432,9 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 .fbiz__incl{
   grid-column:2;grid-row:1;align-self:end;
   border-left:1px solid rgba(255,255,255,.16);padding-left:22px;
-  opacity:0;transition:opacity .5s var(--ease);
+  opacity:0;transition:opacity .22s linear;
 }
-.fbiz__incl.is-on{opacity:1}
+.fbiz__incl.is-on{opacity:1;transition:opacity .5s var(--ease) .26s}
 .fbiz__incl-k{font-size:9.5px;font-weight:800;letter-spacing:.2em;color:var(--gold-2)}
 .fbiz__incl ul{margin-top:12px;display:flex;flex-direction:column;gap:9px}
 .fbiz__incl li{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.09)}
