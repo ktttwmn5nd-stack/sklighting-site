@@ -414,6 +414,8 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
   padding-top:calc(var(--hd) + clamp(18px,3vh,36px));padding-bottom:clamp(18px,2.6vh,28px);
 }
 .fbiz__head .fhead{margin-top:14px}
+.m-br{display:none}
+@media (max-width:1024px){.m-br{display:inline}}
 .fbiz__body{
   display:grid;grid-template-columns:minmax(0,1fr) 300px;
   gap:clamp(20px,3vw,50px);align-items:end;margin-top:auto;padding-top:clamp(16px,4vh,40px);
