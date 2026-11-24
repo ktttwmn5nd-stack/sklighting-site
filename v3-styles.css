@@ -145,7 +145,7 @@ body.v3 .vbiz__tags li{
 .vbiz__body--wide{display:flex;flex-direction:column;height:100%}
 .vbiz__cols{display:grid;grid-template-columns:minmax(0,1.16fr) minmax(240px,.54fr);gap:24px;align-items:end;margin-top:auto}
 .vbiz__cols .vbiz__txt{margin-top:0}
-body.v3 .vbiz__incl{text-shadow:0 1px 16px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6);
+body.v3 .vbiz__incl{
   align-self:end;padding:0;border:0;border-radius:0;background:none;
   -webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;
   text-shadow:0 1px 14px rgba(0,0,0,.85);
