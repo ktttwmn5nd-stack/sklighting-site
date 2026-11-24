@@ -172,11 +172,8 @@ body.v3 .vbiz__incl{
 
 @media(max-width:1040px){
   body.v3 .vbiz__card--road{min-height:520px}
-  .vbiz__cols{grid-template-columns:1fr;gap:16px;align-items:stretch}
-  body.v3 .vbiz__incl{
-    display:block;align-self:stretch;margin-top:2px;padding-top:12px;
-    border-top:1px solid rgba(255,255,255,.24);
-  }
+  .vbiz__cols{grid-template-columns:1fr;gap:14px;align-items:stretch}
+  .vbiz__incl{display:none}
 }
 @media(max-width:820px){
   .vbiz.vbiz--3{grid-template-columns:1fr;gap:16px}
@@ -188,11 +185,6 @@ body.v3 .vbiz__incl{
   body.v3 .vbiz__card .vbiz__tags{margin-top:14px;gap:6px}
   body.v3 .vbiz__card .vbiz__tags li{font-size:11px;padding:4px 9px}
   body.v3 .vbiz__kicker{font-size:8.5px;letter-spacing:.14em}
-  body.v3 .vbiz__incl{padding-top:10px}
-  .vbiz__incl-k{font-size:9px;letter-spacing:.18em}
-  .vbiz__incl ul{margin-top:6px}
-  .vbiz__incl li{font-size:11px;padding:5px 0;gap:1px 8px}
-  .vbiz__incl span{font-size:10.5px;max-width:54%}
   body.v3 .vbiz__card .vbiz__bg .mox__i img{object-position:50% 50%}
   body.v3 .vbiz__card.vbiz__card--road .vbiz__bg .mox__i img{object-position:62% 50%}
   body.v3 .vbiz__card.vbiz__card--land .vbiz__bg .mox__i img{object-position:70% 50%}
