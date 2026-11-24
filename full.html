@@ -15,7 +15,7 @@
 <link rel="preload" href="assets/fonts/Pretendard-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/Pretendard-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="assets/facility/factory-panorama.jpg">
-<link rel="stylesheet" href="full-styles.css?v=1">
+<link rel="stylesheet" href="full-styles.css?v=2">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -58,8 +58,8 @@
 
     <nav class="fnav" id="fnav" aria-label="주요 메뉴">
       <a href="#about" data-goto="5">회사소개</a>
-      <a href="#factory" data-goto="1">제조경쟁력</a>
-      <a href="#business" data-goto="2">사업영역</a>
+      <a href="#business" data-goto="1">사업영역</a>
+      <a href="#factory" data-goto="2">제조경쟁력</a>
       <a href="#cert" data-goto="3">인증·기술</a>
       <a href="#case" data-goto="4">납품실적</a>
       <a href="#contact" data-goto="6">견적문의</a>
@@ -86,8 +86,8 @@
 <nav class="fnavdots" id="fnavdots" aria-label="섹션 이동">
   <ol>
     <li><button type="button" class="fdot is-on" data-goto="0" aria-label="01 히어로"><span class="fdot__n">01</span><i aria-hidden="true"></i></button></li>
-    <li><button type="button" class="fdot" data-goto="1" aria-label="02 제조경쟁력"><span class="fdot__n">02</span><i aria-hidden="true"></i></button></li>
-    <li><button type="button" class="fdot" data-goto="2" aria-label="03 사업영역"><span class="fdot__n">03</span><i aria-hidden="true"></i></button></li>
+    <li><button type="button" class="fdot" data-goto="1" aria-label="02 사업영역"><span class="fdot__n">02</span><i aria-hidden="true"></i></button></li>
+    <li><button type="button" class="fdot" data-goto="2" aria-label="03 제조경쟁력"><span class="fdot__n">03</span><i aria-hidden="true"></i></button></li>
     <li><button type="button" class="fdot" data-goto="3" aria-label="04 인증·기술"><span class="fdot__n">04</span><i aria-hidden="true"></i></button></li>
     <li><button type="button" class="fdot" data-goto="4" aria-label="05 납품실적"><span class="fdot__n">05</span><i aria-hidden="true"></i></button></li>
     <li><button type="button" class="fdot" data-goto="5" aria-label="06 회사소개"><span class="fdot__n">06</span><i aria-hidden="true"></i></button></li>
@@ -172,13 +172,108 @@
     </div>
   </div>
 
-  <a class="fhero__scroll" href="#factory" data-goto="1" aria-label="다음 섹션으로">
+  <a class="fhero__scroll" href="#business" data-goto="1" aria-label="다음 섹션으로">
     <span>SCROLL</span><i aria-hidden="true"></i>
   </a>
 </section>
 
-<!-- ================= 02 MANUFACTURING ================= -->
-<section class="pn pn--mfg" id="factory" data-panel="1">
+<!-- ================= 02 BUSINESS ================= -->
+<section class="pn pn--biz" id="business" data-panel="1">
+  <div class="fbiz__stage" id="fbizStage">
+    <article class="fslide is-on" data-slide="0" data-full="assets/img/v3_signal.jpg">
+      <div class="fmox" data-mox data-interval="7000">
+        <figure class="fmox__i is-on"><img src="assets/img/v3_signal.jpg" alt="현대적인 도심 대형 교차로의 통합 신호등주와 가로등 야경"></figure>
+        <figure class="fmox__i"><img src="assets/img/v3_road_walk.jpg" alt="수변 보행로를 따라 이어지는 가로등주 조명" loading="lazy"></figure>
+        <figure class="fmox__i"><img src="assets/img/v2_tunnel.jpg" alt="균일한 조도로 이어지는 고출력 터널등" loading="lazy"></figure>
+      </div>
+      <span class="fslide__shade" aria-hidden="true"></span>
+    </article>
+    <article class="fslide" data-slide="1" data-full="assets/img/v3_sports_stadium.jpg">
+      <div class="fmox" data-mox data-interval="6400">
+        <figure class="fmox__i is-on"><img src="assets/img/v2_sports_park.jpg" alt="종합스포츠타운 육상 트랙과 경기장 조명" loading="lazy"></figure>
+        <figure class="fmox__i"><img src="assets/img/v3_sports_stadium.jpg" alt="조명타워로 환하게 밝힌 대형 축구장 스타디움 야경" loading="lazy"></figure>
+      </div>
+      <span class="fslide__shade" aria-hidden="true"></span>
+    </article>
+    <article class="fslide" data-slide="2" data-full="assets/img/v2_landscape_rgb.jpg">
+      <div class="fmox" data-mox data-interval="6600">
+        <figure class="fmox__i is-on"><img src="assets/img/v2_landscape_rgb.jpg" alt="화려한 RGB 컬러로 물든 교량과 수변 경관조명 야경" loading="lazy"></figure>
+        <figure class="fmox__i"><img src="assets/img/v2_landscape_warm.jpg" alt="따뜻한 웜골드 빛으로 감싼 수변 공원과 아치 교량 야경" loading="lazy"></figure>
+        <figure class="fmox__i"><img src="assets/img/v3_building.jpg" alt="웜골드 라인과 은은한 블루 라인이 흐르는 건축물 외벽 경관조명" loading="lazy"></figure>
+      </div>
+      <span class="fslide__shade" aria-hidden="true"></span>
+    </article>
+    <article class="fslide" data-slide="3" data-full="assets/img/v3_indoor_hall.jpg">
+      <div class="fmox" data-mox data-interval="6800">
+        <figure class="fmox__i is-on"><img src="assets/img/v3_indoor_panel.jpg" alt="LED 평판등과 라인조명으로 환하게 밝힌 공공청사 실내 공간" loading="lazy"></figure>
+        <figure class="fmox__i"><img src="assets/img/v3_indoor_hall.jpg" alt="LED 다운라이트와 간접조명으로 연출한 실내 다목적 홀" loading="lazy"></figure>
+      </div>
+      <span class="fslide__shade" aria-hidden="true"></span>
+    </article>
+  </div>
+
+  <div class="pn__in fbiz__in">
+    <header class="fbiz__head">
+      <p class="feyebrow feyebrow--light rev" style="--i:0">BUSINESS SCOPE</p>
+      <h2 class="fhead fhead--light rev" style="--i:1">도로와 경기장, 도시의 밤과 실내까지<br>네 개의 사업 영역</h2>
+    </header>
+
+    <div class="fbiz__body">
+      <div class="fbiz__txt is-on" data-panel-txt="0">
+        <p class="fbiz__k">LED ROAD · SECURITY · PARK · TUNNEL</p>
+        <h3 class="fbiz__t">도로 · 교통 인프라 조명</h3>
+        <p class="fbiz__d">LED 가로등기구·보안등기구·공원등기구·터널등기구까지 조명기구를 직접 만들고, 그 조명을 세우는 가로등주·교통신호등주와 수배전반까지 함께 납품합니다. 도로 조건에 맞춘 배광 설계와 구조 검토도 한 회사가 맡습니다.</p>
+        <ul class="ftags"><li>LED 가로등기구</li><li>LED 보안등기구</li><li>LED 공원등기구</li><li>LED 터널등기구</li><li>교통신호등주</li><li>수배전반</li></ul>
+      </div>
+      <div class="fbiz__txt" data-panel-txt="1">
+        <p class="fbiz__k">STADIUM · FLOODLIGHT</p>
+        <h3 class="fbiz__t">대형 스포츠 · 투광 조명</h3>
+        <p class="fbiz__d">대형 운동장과 경기장을 낮처럼 밝히는 고출력 스포츠 투광조명. 조명타워와 등기구를 함께 설계해 선수와 관중 모두 눈부심 없이 경기를 볼 수 있게 만듭니다.</p>
+        <ul class="ftags"><li>종합운동장</li><li>축구·야구장</li><li>고출력 투광</li><li>조명타워</li></ul>
+      </div>
+      <div class="fbiz__txt" data-panel-txt="2">
+        <p class="fbiz__k">LANDSCAPE · RGB &amp; WARM</p>
+        <h3 class="fbiz__t">경관 조명</h3>
+        <p class="fbiz__d">화려한 RGB 연출과 따뜻한 웜골드 톤을 현장에 맞춰 함께 씁니다. 교량·수변·건축물 외벽과 공원·광장까지, 조명제어시스템으로 밤의 표정을 만듭니다.</p>
+        <ul class="ftags"><li>교량·수변</li><li>건축물 외벽</li><li>공원·광장</li><li>조명제어</li></ul>
+      </div>
+      <div class="fbiz__txt" data-panel-txt="3">
+        <p class="fbiz__k">INDOOR · OFFICE &amp; PUBLIC</p>
+        <h3 class="fbiz__t">실내등기구</h3>
+        <p class="fbiz__d">공공청사·오피스·학교·상업·복합시설까지 실내 공간의 LED 등기구. 평판등·라인조명·다운라이트·주차장등을 공간 용도와 천장 조건에 맞춰 구성해 납품합니다.</p>
+        <ul class="ftags"><li>공공청사·오피스</li><li>학교·강당</li><li>상업·복합시설</li><li>주차장·지하</li><li>평판·라인조명</li><li>다운라이트</li></ul>
+      </div>
+
+      <aside class="fbiz__incl is-on" data-panel-incl="0" aria-label="도로·교통 인프라에 포함되는 LED 등기구와 구조물">
+        <p class="fbiz__incl-k">LED 등기구 · 구조물</p>
+        <ul>
+          <li><b>LED 가로등기구</b><span>도로 · 간선</span></li>
+          <li><b>LED 보안등기구</b><span>생활도로</span></li>
+          <li><b>LED 공원등기구</b><span>공원 · 수변</span></li>
+          <li><b>LED 터널등기구</b><span>터널 · 지하차도</span></li>
+          <li><b>가로등주 · 교통신호등주</b><span>철제 · 스텐 · 종합폴</span></li>
+          <li><b>수배전반 · 조명타워</b><span>전원 · 고출력</span></li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="fbiz__foot">
+      <ol class="fbiz__tabs" id="fbizTabs">
+        <li><button class="ftab is-on" type="button" data-slide="0" aria-selected="true"><span class="ftab__no">01</span><span class="ftab__tx"><b>도로·교통 인프라</b><span>가로등 · 터널 · 신호등주</span></span><i aria-hidden="true"></i></button></li>
+        <li><button class="ftab" type="button" data-slide="1" aria-selected="false"><span class="ftab__no">02</span><span class="ftab__tx"><b>스포츠·투광</b><span>경기장 · 조명타워</span></span><i aria-hidden="true"></i></button></li>
+        <li><button class="ftab" type="button" data-slide="2" aria-selected="false"><span class="ftab__no">03</span><span class="ftab__tx"><b>경관 조명</b><span>RGB · 웜골드</span></span><i aria-hidden="true"></i></button></li>
+        <li><button class="ftab" type="button" data-slide="3" aria-selected="false"><span class="ftab__no">04</span><span class="ftab__tx"><b>실내등기구</b><span>공공 · 오피스 · 학교</span></span><i aria-hidden="true"></i></button></li>
+      </ol>
+      <div class="fbiz__arrows">
+        <button type="button" class="farrow" id="fbizPrev" aria-label="이전 사업영역"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" class="farrow" id="fbizNext" aria-label="다음 사업영역"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 MANUFACTURING ================= -->
+<section class="pn pn--mfg" id="factory" data-panel="2">
   <span class="fmfg__bg" aria-hidden="true"></span>
   <div class="pn__in fmfg__in">
     <div class="fmfg__left">
@@ -263,85 +358,6 @@
   </div>
 </section>
 
-<!-- ================= 03 BUSINESS ================= -->
-<section class="pn pn--biz" id="business" data-panel="2">
-  <div class="fbiz__stage" id="fbizStage">
-    <article class="fslide is-on" data-slide="0" data-full="assets/img/v3_signal.jpg">
-      <div class="fmox" data-mox data-interval="7000">
-        <figure class="fmox__i is-on"><img src="assets/img/v3_signal.jpg" alt="현대적인 도심 대형 교차로의 통합 신호등주와 가로등 야경"></figure>
-        <figure class="fmox__i"><img src="assets/img/v3_road_walk.jpg" alt="수변 보행로를 따라 이어지는 가로등주 조명" loading="lazy"></figure>
-        <figure class="fmox__i"><img src="assets/img/v2_tunnel.jpg" alt="균일한 조도로 이어지는 고출력 터널등" loading="lazy"></figure>
-      </div>
-      <span class="fslide__shade" aria-hidden="true"></span>
-    </article>
-    <article class="fslide" data-slide="1" data-full="assets/img/v3_sports_stadium.jpg">
-      <div class="fmox" data-mox data-interval="6400">
-        <figure class="fmox__i is-on"><img src="assets/img/v2_sports_park.jpg" alt="종합스포츠타운 육상 트랙과 경기장 조명" loading="lazy"></figure>
-        <figure class="fmox__i"><img src="assets/img/v3_sports_stadium.jpg" alt="조명타워로 환하게 밝힌 대형 축구장 스타디움 야경" loading="lazy"></figure>
-      </div>
-      <span class="fslide__shade" aria-hidden="true"></span>
-    </article>
-    <article class="fslide" data-slide="2" data-full="assets/img/v2_landscape_rgb.jpg">
-      <div class="fmox" data-mox data-interval="6600">
-        <figure class="fmox__i is-on"><img src="assets/img/v2_landscape_rgb.jpg" alt="화려한 RGB 컬러로 물든 교량과 수변 경관조명 야경" loading="lazy"></figure>
-        <figure class="fmox__i"><img src="assets/img/v2_landscape_warm.jpg" alt="따뜻한 웜골드 빛으로 감싼 수변 공원과 아치 교량 야경" loading="lazy"></figure>
-        <figure class="fmox__i"><img src="assets/img/v3_building.jpg" alt="웜골드 라인과 은은한 블루 라인이 흐르는 건축물 외벽 경관조명" loading="lazy"></figure>
-      </div>
-      <span class="fslide__shade" aria-hidden="true"></span>
-    </article>
-  </div>
-
-  <div class="pn__in fbiz__in">
-    <header class="fbiz__head">
-      <p class="feyebrow feyebrow--light rev" style="--i:0">BUSINESS SCOPE</p>
-      <h2 class="fhead fhead--light rev" style="--i:1">도로와 경기장, 도시의 밤까지<br>세 개의 사업 영역</h2>
-    </header>
-
-    <div class="fbiz__body">
-      <div class="fbiz__txt is-on" data-panel-txt="0">
-        <p class="fbiz__k">ROAD · TUNNEL · TRAFFIC SIGNAL</p>
-        <h3 class="fbiz__t">도로 · 교통 인프라 조명</h3>
-        <p class="fbiz__d">가로등·터널등·교통신호등주부터 그 조명을 세우는 지주와 수배전반까지 한 번에. 도로 조건에 맞춘 배광 설계와 구조 검토, 현장 납품까지 한 회사가 맡습니다.</p>
-        <ul class="ftags"><li>가로등·보안등</li><li>터널·지하차도</li><li>교통신호등주</li><li>가로등주·종합폴</li><li>수배전반</li><li>조명타워</li></ul>
-      </div>
-      <div class="fbiz__txt" data-panel-txt="1">
-        <p class="fbiz__k">STADIUM · FLOODLIGHT</p>
-        <h3 class="fbiz__t">대형 스포츠 · 투광 조명</h3>
-        <p class="fbiz__d">대형 운동장과 경기장을 낮처럼 밝히는 고출력 스포츠 투광조명. 조명타워와 등기구를 함께 설계해 선수와 관중 모두 눈부심 없이 경기를 볼 수 있게 만듭니다.</p>
-        <ul class="ftags"><li>종합운동장</li><li>축구·야구장</li><li>고출력 투광</li><li>조명타워</li></ul>
-      </div>
-      <div class="fbiz__txt" data-panel-txt="2">
-        <p class="fbiz__k">LANDSCAPE · RGB &amp; WARM</p>
-        <h3 class="fbiz__t">경관 조명</h3>
-        <p class="fbiz__d">화려한 RGB 연출과 따뜻한 웜골드 톤을 현장에 맞춰 함께 씁니다. 교량·수변·건축물 외벽과 공원·광장까지, 조명제어시스템으로 밤의 표정을 만듭니다.</p>
-        <ul class="ftags"><li>교량·수변</li><li>건축물 외벽</li><li>공원·광장</li><li>조명제어</li></ul>
-      </div>
-
-      <aside class="fbiz__incl is-on" data-panel-incl="0" aria-label="도로·교통 인프라에 포함되는 구조물 제작">
-        <p class="fbiz__incl-k">함께 만드는 구조물</p>
-        <ul>
-          <li><b>가로등주</b><span>철제 · 스테인리스</span></li>
-          <li><b>교통신호등주</b><span>종합폴 포함</span></li>
-          <li><b>수배전반</b><span>현장 전원 구성</span></li>
-          <li><b>조명타워</b><span>고출력 투광</span></li>
-        </ul>
-      </aside>
-    </div>
-
-    <div class="fbiz__foot">
-      <ol class="fbiz__tabs" id="fbizTabs">
-        <li><button class="ftab is-on" type="button" data-slide="0" aria-selected="true"><span class="ftab__no">01</span><span class="ftab__tx"><b>도로·교통 인프라</b><span>가로등 · 터널 · 신호등주</span></span><i aria-hidden="true"></i></button></li>
-        <li><button class="ftab" type="button" data-slide="1" aria-selected="false"><span class="ftab__no">02</span><span class="ftab__tx"><b>스포츠·투광</b><span>경기장 · 조명타워</span></span><i aria-hidden="true"></i></button></li>
-        <li><button class="ftab" type="button" data-slide="2" aria-selected="false"><span class="ftab__no">03</span><span class="ftab__tx"><b>경관 조명</b><span>RGB · 웜골드</span></span><i aria-hidden="true"></i></button></li>
-      </ol>
-      <div class="fbiz__arrows">
-        <button type="button" class="farrow" id="fbizPrev" aria-label="이전 사업영역"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-        <button type="button" class="farrow" id="fbizNext" aria-label="다음 사업영역"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= 04 CERTIFICATION ================= -->
 <section class="pn pn--cert" id="cert" data-panel="3">
   <div class="pn__in fcert__in">
@@ -380,15 +396,15 @@
       <ul class="fcerts">
         <li class="fcc rev" style="--i:2">
           <figure class="fcc__m"><img src="assets/cert/eff_dc200.png" alt="고효율에너지기자재 인증서" loading="lazy"></figure>
-          <div class="fcc__tx"><b>고효율에너지기자재</b><span>한국에너지공단 · 9건</span><p>공장등·가로등 등 9개 모델 · 최대 광효율 147.6 lm/W</p></div>
+          <div class="fcc__tx"><b>고효율에너지기자재</b><span>한국에너지공단</span><p>공장등·가로등 · 최대 광효율 147.6 lm/W</p></div>
         </li>
         <li class="fcc rev" style="--i:3">
           <figure class="fcc__m"><img src="assets/cert/ks-16-0035.jpg" alt="KS 제품인증서 제16-0035호" loading="lazy"></figure>
-          <div class="fcc__tx"><b>KS 제품인증</b><span>4개 품목</span><p>LED 가로등·보안등 · 테이퍼 철제 가로등주 · LED 투광등 · 터널등</p></div>
+          <div class="fcc__tx"><b>KS 제품인증</b><span>제16-0035호</span><p>LED 가로등·보안등 · 테이퍼 철제 가로등주 · LED 투광등 · 터널등</p></div>
         </li>
         <li class="fcc rev" style="--i:4">
           <figure class="fcc__m"><img src="assets/cert/kmark.jpg" alt="K마크 성능인증서" loading="lazy"></figure>
-          <div class="fcc__tx"><b>K마크 성능인증</b><span>5개 품목</span><p>철재·스테인리스 가로등주 · LED 가로등·보안등 · 교통신호등주</p></div>
+          <div class="fcc__tx"><b>K마크 성능인증</b><p>철재·스테인리스 가로등주 · LED 가로등·보안등 · 교통신호등주</p></div>
         </li>
         <li class="fcc rev" style="--i:5">
           <figure class="fcc__m"><img src="assets/cert/env_17796.png" alt="환경표지 인증서 제17796호" loading="lazy"></figure>
@@ -396,7 +412,7 @@
         </li>
         <li class="fcc rev" style="--i:3">
           <figure class="fcc__m"><img src="assets/cert/direct-production.jpg" alt="직접생산확인증명서" loading="lazy"></figure>
-          <div class="fcc__tx"><b>직접생산확인</b><span>중소벤처기업부 · 6개 품목</span><p>옥외조명설비공사 · 교통통제장비 · 금속기둥 외</p></div>
+          <div class="fcc__tx"><b>직접생산확인</b><span>중소벤처기업부</span><p>옥외조명설비공사 · 교통통제장비 · 금속기둥 외</p></div>
         </li>
         <li class="fcc rev" style="--i:4">
           <figure class="fcc__m"><img src="assets/cert/gg-design-1.jpg" alt="경기도 공공시설물 우수디자인 인증서" loading="lazy"></figure>
@@ -645,6 +661,7 @@
               <option>지주·수배전반·조명타워 제작</option>
               <option>대형 스포츠·투광 조명</option>
               <option>경관 조명 (교량·건축·수변)</option>
+              <option>실내등기구 (공공청사·오피스·학교·상업시설)</option>
               <option>공공조달·혁신제품 구매</option>
               <option>기타</option>
             </select>
@@ -729,6 +746,6 @@
   </div>
 </div>
 
-<script src="full.js?v=1"></script>
+<script src="full.js?v=2"></script>
 </body>
 </html>
