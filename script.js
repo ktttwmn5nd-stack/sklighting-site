@@ -552,7 +552,7 @@
      11. 현재 섹션 내비 표시
      ======================================================= */
   (function activeNav() {
-    var links = qsa('.nav a');
+    var links = qsa('.nav a').filter(function (a) { return (a.getAttribute('href') || '').charAt(0) === '#'; });
     var secs = links.map(function (a) { return d.querySelector(a.getAttribute('href')); }).filter(Boolean);
     if (!hasIO || !secs.length) return;
     var current = null;
