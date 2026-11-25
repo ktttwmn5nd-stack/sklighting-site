@@ -19,7 +19,7 @@
 <link rel="preload" href="assets/fonts/Pretendard-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/Pretendard-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="assets/facility/factory-panorama.jpg">
-<link rel="stylesheet" href="full-styles.css?v=3">
+<link rel="stylesheet" href="full-styles.css?v=4">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -61,11 +61,11 @@
     </a>
 
     <nav class="fnav" id="fnav" aria-label="주요 메뉴">
-      <a href="#about" data-goto="5">회사소개</a>
       <a href="#business" data-goto="1">사업영역</a>
-      <a href="#factory" data-goto="2">제조경쟁력</a>
-      <a href="#cert" data-goto="3">인증·기술</a>
-      <a href="#case" data-goto="4">납품실적</a>
+      <a href="#case" data-goto="2">납품실적</a>
+      <a href="#factory" data-goto="3">제조경쟁력</a>
+      <a href="#cert" data-goto="4">인증·기술</a>
+      <a href="#about" data-goto="5">회사소개</a>
       <a href="#contact" data-goto="6">견적문의</a>
       <a class="fnav__shop" href="https://skldesign.cafe24.com" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.2 8h15.6l-1.2 11.1a1.7 1.7 0 0 1-1.7 1.5H7.1a1.7 1.7 0 0 1-1.7-1.5L4.2 8Z"/><path d="M8.7 8V6.5a3.3 3.3 0 0 1 6.6 0V8"/></svg>
@@ -91,11 +91,11 @@
   <ol>
     <li><button type="button" class="fdot is-on" data-goto="0" aria-label="01 히어로"><span class="fdot__n">01</span><i aria-hidden="true"></i></button></li>
     <li><button type="button" class="fdot" data-goto="1" aria-label="02 사업영역"><span class="fdot__n">02</span><i aria-hidden="true"></i></button></li>
-    <li><button type="button" class="fdot" data-goto="2" aria-label="03 제조경쟁력"><span class="fdot__n">03</span><i aria-hidden="true"></i></button></li>
-    <li><button type="button" class="fdot" data-goto="3" aria-label="04 인증·기술"><span class="fdot__n">04</span><i aria-hidden="true"></i></button></li>
-    <li><button type="button" class="fdot" data-goto="4" aria-label="05 납품실적"><span class="fdot__n">05</span><i aria-hidden="true"></i></button></li>
+    <li><button type="button" class="fdot" data-goto="2" aria-label="03 납품실적"><span class="fdot__n">03</span><i aria-hidden="true"></i></button></li>
+    <li><button type="button" class="fdot" data-goto="3" aria-label="04 제조경쟁력"><span class="fdot__n">04</span><i aria-hidden="true"></i></button></li>
+    <li><button type="button" class="fdot" data-goto="4" aria-label="05 인증·기술"><span class="fdot__n">05</span><i aria-hidden="true"></i></button></li>
     <li><button type="button" class="fdot" data-goto="5" aria-label="06 회사소개"><span class="fdot__n">06</span><i aria-hidden="true"></i></button></li>
-    <li><button type="button" class="fdot" data-goto="6" aria-label="07 견적문의"><span class="fdot__n">07</span><i aria-hidden="true"></i></button></li>
+    <li><button type="button" class="fdot" data-goto="6" aria-label="07 견적문의·오시는 길"><span class="fdot__n">07</span><i aria-hidden="true"></i></button></li>
   </ol>
   <span class="fnavdots__pos" aria-hidden="true"><span class="fnavdots__lb" id="fsLb">HERO</span><b id="fsPos">01</b><span class="fnavdots__n">/ 07</span></span>
 </nav>
@@ -276,8 +276,90 @@
   </div>
 </section>
 
-<!-- ================= 03 MANUFACTURING ================= -->
-<section class="pn pn--mfg" id="factory" data-panel="2">
+<!-- ================= 03 REFERENCE ================= -->
+<section class="pn pn--case" id="case" data-panel="2">
+  <div class="fcase__stage" id="fcaseStage">
+    <article class="fcase__item is-on" data-slide="0"><img src="assets/img/v3_steel_pole.jpg" alt="수변 보행로를 따라 이어지는 가로등주와 보행등 야경" fetchpriority="high"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="1"><img src="assets/img/v3_signal.jpg" alt="도심 대형 교차로의 통합 교통신호등주와 도로조명 야경" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="2"><img src="assets/img/v3_mast.jpg" alt="고속도로 분기점을 비추는 초대형 하이마스트 조명타워 야경" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="3"><img src="assets/img/v3_led_street.jpg" alt="간선도로를 밝히는 고효율 LED 가로등기구 헤드 클로즈업" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="4"><img src="assets/img/v3_led_park.jpg" alt="공원 산책로를 밝히는 LED 공원등기구" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="5"><img src="assets/img/v3_sports_stadium.jpg" alt="조명타워로 환하게 밝힌 대형 축구장 스타디움" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="6"><img src="assets/img/v2_landscape_rgb.jpg" alt="RGB 컬러 연출로 물든 교량 경관조명 야경" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="7"><img src="assets/img/v3_building.jpg" alt="웜골드 라인과 블루 라인이 흐르는 공공건축물 외벽 경관조명" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+    <article class="fcase__item" data-slide="8"><img src="assets/img/v3_indoor_panel.jpg" alt="LED 평판등과 라인조명으로 환하게 밝힌 공공청사 실내" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
+  </div>
+
+  <div class="pn__in fcase__in">
+    <header class="fcase__head">
+      <p class="feyebrow feyebrow--light rev" style="--i:0">PROJECT &amp; REFERENCE</p>
+      <h2 class="fhead fhead--light rev" style="--i:1">현장에서 빛이 되는 순간</h2>
+    </header>
+
+    <div class="fcase__body">
+      <div class="fcase__cap">
+        <span class="fcase__no" id="fcaseNo">01</span>
+        <h3 class="fcase__t" id="fcaseT">가로등주</h3>
+        <p class="fcase__c" id="fcaseC">도로·보행로 조명 · 철제·스테인리스</p>
+        <div class="fcase__ctrl">
+          <button type="button" class="farrow" id="fcasePrev" aria-label="이전 납품 현장"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <span class="fcase__count"><b id="fcasePos">01</b> / 09</span>
+          <button type="button" class="farrow" id="fcaseNext" aria-label="다음 납품 현장"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+
+      <ul class="fcase__rail" id="fcaseRail">
+        <li><button class="fcase__th is-on" type="button" data-slide="0"><img src="assets/img/v3_steel_pole.jpg" alt="" loading="lazy"><span><b>가로등주</b><i>도로·보행로</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="1"><img src="assets/img/v3_signal.jpg" alt="" loading="lazy"><span><b>신호등주</b><i>교통신호등주</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="2"><img src="assets/img/v3_mast.jpg" alt="" loading="lazy"><span><b>조명타워</b><i>IC·항만 하이마스트</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="3"><img src="assets/img/v3_led_street.jpg" alt="" loading="lazy"><span><b>가로·보안등</b><i>LED 등기구</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="4"><img src="assets/img/v3_led_park.jpg" alt="" loading="lazy"><span><b>공원·터널등</b><i>LED 등기구</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="5"><img src="assets/img/v3_sports_stadium.jpg" alt="" loading="lazy"><span><b>스포츠조명</b><i>종합운동장</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="6"><img src="assets/img/v2_landscape_rgb.jpg" alt="" loading="lazy"><span><b>다리 경관조명</b><i>교량·수변</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="7"><img src="assets/img/v3_building.jpg" alt="" loading="lazy"><span><b>건물 경관조명</b><i>공공·랜드마크</i></span></button></li>
+        <li><button class="fcase__th" type="button" data-slide="8"><img src="assets/img/v3_indoor_panel.jpg" alt="" loading="lazy"><span><b>실내등기구</b><i>공공·오피스</i></span></button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fcase__band">
+    <div class="pn__in fcase__band-in">
+      <div class="fcase__band-h">
+        <p class="fcase__band-k">CLIENTS <b>100<small>+</small></b></p>
+        <p class="fcase__band-t">주요 납품처</p>
+      </div>
+      <div class="fmarquee" aria-label="주요 납품처 목록">
+        <div class="fmarquee__row">
+          <ul class="fmarquee__list">
+            <li>대구광역시</li><li>부산광역시</li><li>울산광역시</li><li>성남시</li><li>용인시</li><li>수원시</li><li>화성시</li><li>평택시</li><li>안산시</li><li>시흥시</li><li>부천시</li><li>오산시</li><li>안성시</li><li>포항시</li><li>경주시</li><li>김해시</li><li>창원시</li><li>진주시</li><li>원주시</li><li>제주시</li><li>서귀포시</li><li>외 다수</li>
+          </ul>
+          <ul class="fmarquee__list" aria-hidden="true">
+            <li>대구광역시</li><li>부산광역시</li><li>울산광역시</li><li>성남시</li><li>용인시</li><li>수원시</li><li>화성시</li><li>평택시</li><li>안산시</li><li>시흥시</li><li>부천시</li><li>오산시</li><li>안성시</li><li>포항시</li><li>경주시</li><li>김해시</li><li>창원시</li><li>진주시</li><li>원주시</li><li>제주시</li><li>서귀포시</li><li>외 다수</li>
+          </ul>
+        </div>
+        <div class="fmarquee__row fmarquee__row--rev">
+          <ul class="fmarquee__list">
+            <li>경남 지방조달청</li><li>대구 지방조달청</li><li>광주 지방조달청</li><li>인천 지방조달청</li><li>대전 지방조달청</li><li>강원 지방조달청</li><li>경기주택도시공사</li><li>경기도 건설본부</li><li>경남도시개발공사</li><li>서울시 서대문구청</li><li>동대문구청</li><li>관악구청</li><li>용산구청</li><li>해운대구청</li><li>서울 상수도사업본부</li><li>농심 메가마트</li>
+          </ul>
+          <ul class="fmarquee__list" aria-hidden="true">
+            <li>경남 지방조달청</li><li>대구 지방조달청</li><li>광주 지방조달청</li><li>인천 지방조달청</li><li>대전 지방조달청</li><li>강원 지방조달청</li><li>경기주택도시공사</li><li>경기도 건설본부</li><li>경남도시개발공사</li><li>서울시 서대문구청</li><li>동대문구청</li><li>관악구청</li><li>용산구청</li><li>해운대구청</li><li>서울 상수도사업본부</li><li>농심 메가마트</li>
+          </ul>
+        </div>
+        <div class="fmarquee__row">
+          <ul class="fmarquee__list">
+            <li>월성원자력발전소</li><li>아산 현대자동차</li><li>인천신공항 건설단</li><li>LG건설</li><li>고속철도 차량기지</li><li>용평리조트</li><li>경주박물관</li><li>중앙대학교</li><li>홍익대학교</li><li>한성대학교</li><li>평택대학교</li><li>한경대학교</li><li>순천향대학교</li>
+          </ul>
+          <ul class="fmarquee__list" aria-hidden="true">
+            <li>월성원자력발전소</li><li>아산 현대자동차</li><li>인천신공항 건설단</li><li>LG건설</li><li>고속철도 차량기지</li><li>용평리조트</li><li>경주박물관</li><li>중앙대학교</li><li>홍익대학교</li><li>한성대학교</li><li>평택대학교</li><li>한경대학교</li><li>순천향대학교</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 MANUFACTURING ================= -->
+<section class="pn pn--mfg" id="factory" data-panel="3">
   <span class="fmfg__bg" aria-hidden="true"></span>
   <div class="pn__in fmfg__in">
     <div class="fmfg__left">
@@ -362,8 +444,8 @@
   </div>
 </section>
 
-<!-- ================= 04 CERTIFICATION ================= -->
-<section class="pn pn--cert" id="cert" data-panel="3">
+<!-- ================= 05 CERTIFICATION ================= -->
+<section class="pn pn--cert" id="cert" data-panel="4">
   <div class="pn__in fcert__in">
     <header class="fcert__head">
       <div>
@@ -448,88 +530,6 @@
   </div>
 </section>
 
-<!-- ================= 05 REFERENCE ================= -->
-<section class="pn pn--case" id="case" data-panel="4">
-  <div class="fcase__stage" id="fcaseStage">
-    <article class="fcase__item is-on" data-slide="0"><img src="assets/img/v3_steel_pole.jpg" alt="수변 보행로를 따라 이어지는 가로등주와 보행등 야경" fetchpriority="high"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="1"><img src="assets/img/v3_signal.jpg" alt="도심 대형 교차로의 통합 교통신호등주와 도로조명 야경" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="2"><img src="assets/img/v3_mast.jpg" alt="고속도로 분기점을 비추는 초대형 하이마스트 조명타워 야경" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="3"><img src="assets/img/v3_led_street.jpg" alt="간선도로를 밝히는 고효율 LED 가로등기구 헤드 클로즈업" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="4"><img src="assets/img/v3_led_park.jpg" alt="공원 산책로를 밝히는 LED 공원등기구" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="5"><img src="assets/img/v3_sports_stadium.jpg" alt="조명타워로 환하게 밝힌 대형 축구장 스타디움" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="6"><img src="assets/img/v2_landscape_rgb.jpg" alt="RGB 컬러 연출로 물든 교량 경관조명 야경" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="7"><img src="assets/img/v3_building.jpg" alt="웜골드 라인과 블루 라인이 흐르는 공공건축물 외벽 경관조명" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-    <article class="fcase__item" data-slide="8"><img src="assets/img/v3_indoor_panel.jpg" alt="LED 평판등과 라인조명으로 환하게 밝힌 공공청사 실내" loading="lazy"><span class="fcase__shade" aria-hidden="true"></span></article>
-  </div>
-
-  <div class="pn__in fcase__in">
-    <header class="fcase__head">
-      <p class="feyebrow feyebrow--light rev" style="--i:0">PROJECT &amp; REFERENCE</p>
-      <h2 class="fhead fhead--light rev" style="--i:1">현장에서 빛이 되는 순간</h2>
-    </header>
-
-    <div class="fcase__body">
-      <div class="fcase__cap">
-        <span class="fcase__no" id="fcaseNo">01</span>
-        <h3 class="fcase__t" id="fcaseT">가로등주</h3>
-        <p class="fcase__c" id="fcaseC">도로·보행로 조명 · 철제·스테인리스</p>
-        <div class="fcase__ctrl">
-          <button type="button" class="farrow" id="fcasePrev" aria-label="이전 납품 현장"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-          <span class="fcase__count"><b id="fcasePos">01</b> / 09</span>
-          <button type="button" class="farrow" id="fcaseNext" aria-label="다음 납품 현장"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
-        </div>
-      </div>
-
-      <ul class="fcase__rail" id="fcaseRail">
-        <li><button class="fcase__th is-on" type="button" data-slide="0"><img src="assets/img/v3_steel_pole.jpg" alt="" loading="lazy"><span><b>가로등주</b><i>도로·보행로</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="1"><img src="assets/img/v3_signal.jpg" alt="" loading="lazy"><span><b>신호등주</b><i>교통신호등주</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="2"><img src="assets/img/v3_mast.jpg" alt="" loading="lazy"><span><b>조명타워</b><i>IC·항만 하이마스트</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="3"><img src="assets/img/v3_led_street.jpg" alt="" loading="lazy"><span><b>가로·보안등</b><i>LED 등기구</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="4"><img src="assets/img/v3_led_park.jpg" alt="" loading="lazy"><span><b>공원·터널등</b><i>LED 등기구</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="5"><img src="assets/img/v3_sports_stadium.jpg" alt="" loading="lazy"><span><b>스포츠조명</b><i>종합운동장</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="6"><img src="assets/img/v2_landscape_rgb.jpg" alt="" loading="lazy"><span><b>다리 경관조명</b><i>교량·수변</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="7"><img src="assets/img/v3_building.jpg" alt="" loading="lazy"><span><b>건물 경관조명</b><i>공공·랜드마크</i></span></button></li>
-        <li><button class="fcase__th" type="button" data-slide="8"><img src="assets/img/v3_indoor_panel.jpg" alt="" loading="lazy"><span><b>실내등기구</b><i>공공·오피스</i></span></button></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="fcase__band">
-    <div class="pn__in fcase__band-in">
-      <div class="fcase__band-h">
-        <p class="fcase__band-k">CLIENTS <b>100<small>+</small></b></p>
-        <p class="fcase__band-t">주요 납품처</p>
-      </div>
-      <div class="fmarquee" aria-label="주요 납품처 목록">
-        <div class="fmarquee__row">
-          <ul class="fmarquee__list">
-            <li>대구광역시</li><li>부산광역시</li><li>울산광역시</li><li>성남시</li><li>용인시</li><li>수원시</li><li>화성시</li><li>평택시</li><li>안산시</li><li>시흥시</li><li>부천시</li><li>오산시</li><li>안성시</li><li>포항시</li><li>경주시</li><li>김해시</li><li>창원시</li><li>진주시</li><li>원주시</li><li>제주시</li><li>서귀포시</li><li>외 다수</li>
-          </ul>
-          <ul class="fmarquee__list" aria-hidden="true">
-            <li>대구광역시</li><li>부산광역시</li><li>울산광역시</li><li>성남시</li><li>용인시</li><li>수원시</li><li>화성시</li><li>평택시</li><li>안산시</li><li>시흥시</li><li>부천시</li><li>오산시</li><li>안성시</li><li>포항시</li><li>경주시</li><li>김해시</li><li>창원시</li><li>진주시</li><li>원주시</li><li>제주시</li><li>서귀포시</li><li>외 다수</li>
-          </ul>
-        </div>
-        <div class="fmarquee__row fmarquee__row--rev">
-          <ul class="fmarquee__list">
-            <li>경남 지방조달청</li><li>대구 지방조달청</li><li>광주 지방조달청</li><li>인천 지방조달청</li><li>대전 지방조달청</li><li>강원 지방조달청</li><li>경기주택도시공사</li><li>경기도 건설본부</li><li>경남도시개발공사</li><li>서울시 서대문구청</li><li>동대문구청</li><li>관악구청</li><li>용산구청</li><li>해운대구청</li><li>서울 상수도사업본부</li><li>농심 메가마트</li>
-          </ul>
-          <ul class="fmarquee__list" aria-hidden="true">
-            <li>경남 지방조달청</li><li>대구 지방조달청</li><li>광주 지방조달청</li><li>인천 지방조달청</li><li>대전 지방조달청</li><li>강원 지방조달청</li><li>경기주택도시공사</li><li>경기도 건설본부</li><li>경남도시개발공사</li><li>서울시 서대문구청</li><li>동대문구청</li><li>관악구청</li><li>용산구청</li><li>해운대구청</li><li>서울 상수도사업본부</li><li>농심 메가마트</li>
-          </ul>
-        </div>
-        <div class="fmarquee__row">
-          <ul class="fmarquee__list">
-            <li>월성원자력발전소</li><li>아산 현대자동차</li><li>인천신공항 건설단</li><li>LG건설</li><li>고속철도 차량기지</li><li>용평리조트</li><li>경주박물관</li><li>중앙대학교</li><li>홍익대학교</li><li>한성대학교</li><li>평택대학교</li><li>한경대학교</li><li>순천향대학교</li>
-          </ul>
-          <ul class="fmarquee__list" aria-hidden="true">
-            <li>월성원자력발전소</li><li>아산 현대자동차</li><li>인천신공항 건설단</li><li>LG건설</li><li>고속철도 차량기지</li><li>용평리조트</li><li>경주박물관</li><li>중앙대학교</li><li>홍익대학교</li><li>한성대학교</li><li>평택대학교</li><li>한경대학교</li><li>순천향대학교</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= 06 COMPANY ================= -->
 <section class="pn pn--about" id="about" data-panel="5">
   <div class="pn__in fabout__in">
@@ -555,27 +555,6 @@
         <li><b>7,550<small>평</small></b><span>평택 직영공장</span></li>
         <li><b>혁신제품 · KS · K마크</b><span>인증으로 증명하는 제조</span></li>
       </ul>
-
-      <div class="fabout__cta rev" style="--i:3">
-        <a class="fdl" href="assets/docs/sekwang-profile-2026-04.pdf" download>
-          <span class="fdl__k">DOCUMENT · 24P</span>
-          <b>회사 지명원 PDF</b>
-          <span class="fdl__d">회사 현황과 인·허가, 납품실적</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
-        </a>
-        <a class="fdl" href="assets/docs/sekwang-public-catalog-2026.pdf" download>
-          <span class="fdl__k">DOCUMENT · 104P</span>
-          <b>관급 카다로그 PDF</b>
-          <span class="fdl__d">모델별 도면과 사양</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
-        </a>
-        <a class="fdl fdl--shop" href="https://skldesign.cafe24.com" target="_blank" rel="noopener noreferrer">
-          <span class="fdl__k">ONLINE SHOP</span>
-          <b>직영 쇼핑몰</b>
-          <span class="fdl__d">규격·구성 바로 확인</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.6 4.4H20v6.4M19.6 4.8l-8 8M17.6 13.6v4.6a1.6 1.6 0 0 1-1.6 1.6H5.8a1.6 1.6 0 0 1-1.6-1.6V8a1.6 1.6 0 0 1 1.6-1.6h4.6"/></svg>
-        </a>
-      </div>
     </div>
 
     <div class="fhist">
@@ -712,6 +691,29 @@
     </aside>
   </div>
 
+  <div class="pn__in fdocrow__in">
+    <div class="fdocrow rev" style="--i:1">
+      <a class="fdl" href="assets/docs/sekwang-profile-2026-04.pdf" download>
+        <span class="fdl__k">DOCUMENT · 24P</span>
+        <b>회사 지명원 PDF</b>
+        <span class="fdl__d">회사 현황과 인·허가, 납품실적</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
+      </a>
+      <a class="fdl" href="assets/docs/sekwang-public-catalog-2026.pdf" download>
+        <span class="fdl__k">DOCUMENT · 104P</span>
+        <b>관급 카다로그 PDF</b>
+        <span class="fdl__d">모델별 도면과 사양</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
+      </a>
+      <a class="fdl fdl--shop" href="https://skldesign.cafe24.com" target="_blank" rel="noopener noreferrer">
+        <span class="fdl__k">ONLINE SHOP</span>
+        <b>직영 쇼핑몰</b>
+        <span class="fdl__d">규격·구성 바로 확인</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.6 4.4H20v6.4M19.6 4.8l-8 8M17.6 13.6v4.6a1.6 1.6 0 0 1-1.6 1.6H5.8a1.6 1.6 0 0 1-1.6-1.6V8a1.6 1.6 0 0 1 1.6-1.6h4.6"/></svg>
+      </a>
+    </div>
+  </div>
+
   <footer class="fft">
     <div class="pn__in fft__in">
       <div class="fft__brand">
@@ -756,6 +758,6 @@
   </div>
 </div>
 
-<script src="full.js?v=3"></script>
+<script src="full.js?v=4"></script>
 </body>
 </html>

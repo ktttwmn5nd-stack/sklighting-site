@@ -673,7 +673,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 .fcontact__in{
   flex:1 1 auto;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);
   gap:clamp(24px,3.4vw,58px);align-items:start;
-  padding-top:calc(var(--hd) + clamp(10px,2.4vh,28px));padding-bottom:clamp(16px,2.4vh,26px);
+  padding-top:clamp(8px,1.8vh,22px);padding-bottom:clamp(12px,1.9vh,22px);
 }
 .fcontact__left .fhead{margin-top:12px}
 .fcontact__left .fdesc{margin-top:10px;max-width:460px}
@@ -704,7 +704,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 
 .fcontact__right{min-width:0}
 .floc{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.025);border-radius:2px;overflow:hidden}
-.floc__map{position:relative;height:clamp(232px,34vh,330px);background:#060A13;border-bottom:1px solid rgba(255,255,255,.1);display:grid;place-items:center;overflow:hidden}
+.floc__map{position:relative;height:clamp(196px,26vh,306px);background:#060A13;border-bottom:1px solid rgba(255,255,255,.1);display:grid;place-items:center;overflow:hidden}
 .floc__map img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;filter:contrast(1.02) brightness(.98)}
 .floc__note{
   display:flex;align-items:center;gap:7px;padding:9px 18px;font-size:10.5px;color:rgba(200,212,228,.78);
@@ -723,7 +723,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 .floc__btns .fbtn{flex:1;height:36px;font-size:11.5px;padding:0 10px}
 
 .fft{border-top:1px solid rgba(255,255,255,.10);background:#04060B;margin-top:auto}
-.fft__in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr) 210px;gap:28px;align-items:start;padding-block:18px 20px}
+.fft__in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr) 210px;gap:28px;align-items:start;padding-block:14px 16px}
 .fbrand--ft .fbrand__mk{width:28px;height:28px}
 .fbrand--ft .fbrand__tx strong{font-size:13px}
 .fft__brand p{margin-top:8px;font-size:10px;line-height:1.6;color:rgba(141,156,178,.66)}
@@ -896,3 +896,18 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
   .fhero__s.is-on img,.fmfg__scan,.fmarquee__row{animation:none}
   .rev{opacity:1;transform:none;transition:none}
 }
+
+/* =========================================================================
+   07 CONTACT 하단 — 직영 쇼핑몰 · 지명원 · 관급 카다로그
+   (회사소개 패널 CTA에서 이동)
+   ========================================================================= */
+.fdocrow__in{padding-bottom:clamp(8px,1.5vh,16px)}
+.fdocrow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.fdocrow .fdl{padding:8px 14px}
+@media (max-width:1024px){
+  .fdocrow{grid-template-columns:1fr}
+  .fdocrow__in{padding-bottom:8px}
+}
+/* 회사소개: 지명원 CTA가 07로 이동했으므로 단일 컬럼 */
+.fabout__body{grid-template-columns:minmax(0,1fr);gap:20px}
+.fabout__body .fabout__facts{margin-top:0}

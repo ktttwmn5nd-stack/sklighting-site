@@ -58,7 +58,7 @@
   var dots = qsa('.fdot');
   var posEl = d.getElementById('fsPos');
   var lbEl = d.getElementById('fsLb');
-  var labels = ['HERO','BUSINESS','MANUFACTURING','CERTIFICATION','REFERENCE','COMPANY','CONTACT'];
+  var labels = ['HERO','BUSINESS','REFERENCE','MANUFACTURING','CERTIFICATION','COMPANY','CONTACT'];
   var barEl = d.getElementById('fprogBar');
   var navLinks = qsa('.fnav a[data-goto]');
   var current = 0;
