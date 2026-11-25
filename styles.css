@@ -808,10 +808,15 @@ h2{font-size:clamp(28px,3.4vw,44px);line-height:1.28;font-weight:800;letter-spac
   box-shadow:inset 0 1px 0 rgba(255,255,255,.06);
   transition:background .4s,border-color .4s,box-shadow .4s,transform .4s;
 }
-.procure__cards li.is-priority{
+.procure__cards li.is-priority,.procure__cards li.is-mandatory{
   background:linear-gradient(160deg,rgba(46,36,14,.62),rgba(255,255,255,.04));
   border-color:rgba(234,179,8,.34);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 0 40px -32px rgba(234,179,8,.9);
+}
+.procure__cards li.is-mandatory{border-color:rgba(234,179,8,.5)}
+.procure__cards li.is-mandatory .procure__tag{
+  color:#1A1204;background:linear-gradient(180deg,#F6E2B0,#EAB308);border-color:rgba(246,226,176,.9);
+  letter-spacing:.04em;box-shadow:0 0 14px -4px rgba(234,179,8,.75);
 }
 .procure__cards li:hover{
   background:linear-gradient(160deg,rgba(24,36,60,.8),rgba(255,255,255,.05));

@@ -496,6 +496,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 .finnov__no{font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--gold-2)}
 .finnov__tags{display:flex;flex-wrap:wrap;gap:6px}
 .finnov__badge--std{color:#F6E2B0;background:rgba(217,175,98,.10);border:1px solid rgba(242,209,148,.46);padding:4px 9px}
+.finnov__badge--mand{color:#1A1206;background:linear-gradient(120deg,#F6E2B0,#EAB308);box-shadow:0 0 16px -5px rgba(234,179,8,.8)}
 .finnov__body{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;align-items:start}
 .finnov__cert{border:1px solid rgba(255,255,255,.14);background:#fff;overflow:hidden;border-radius:1px}
 .finnov__cert img{width:100%;height:auto;display:block}
