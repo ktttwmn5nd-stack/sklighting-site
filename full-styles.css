@@ -79,7 +79,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 }
 .fhead--light{color:#fff}
 .fhead em{font-style:normal;color:var(--gold-2)}
-.fdesc{font-size:clamp(14px,1.05vw,15.5px);line-height:1.85;color:var(--muted);max-width:640px}
+.fdesc{font-size:clamp(14px,1.05vw,15.5px);line-height:1.85;color:var(--muted);max-width:640px;word-break:keep-all}
 .fdesc strong{color:var(--ink-2);font-weight:600}
 .fdesc--right{text-align:right;max-width:420px;margin-left:auto}
 .ffoot-note{font-size:11.5px;line-height:1.7;color:rgba(141,156,178,.75);margin-top:14px}
@@ -494,6 +494,8 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
   padding:5px 10px;border-radius:2px;
 }
 .finnov__no{font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--gold-2)}
+.finnov__tags{display:flex;flex-wrap:wrap;gap:6px}
+.finnov__badge--std{color:#F6E2B0;background:rgba(217,175,98,.10);border:1px solid rgba(242,209,148,.46);padding:4px 9px}
 .finnov__body{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;align-items:start}
 .finnov__cert{border:1px solid rgba(255,255,255,.14);background:#fff;overflow:hidden;border-radius:1px}
 .finnov__cert img{width:100%;height:auto;display:block}
@@ -501,7 +503,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 .finnov__txt p{margin-top:8px;font-size:11.5px;line-height:1.7;color:rgba(214,225,238,.72)}
 .finnov__date{margin-top:8px !important;font-size:10.5px !important;letter-spacing:.06em;color:rgba(242,209,148,.8) !important}
 .finnov__ben{display:flex;flex-direction:column;margin-top:auto;border-top:1px solid rgba(255,255,255,.10)}
-.finnov__ben li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:baseline}
+.finnov__ben li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:baseline}
 .finnov__ben li:last-child{border-bottom:0}
 .finnov__ben b{font-size:11.5px;font-weight:700;color:var(--gold-2)}
 .finnov__ben span{font-size:10.5px;line-height:1.55;color:rgba(196,209,226,.72)}
